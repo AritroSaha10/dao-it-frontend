@@ -19,14 +19,14 @@ const Home = () => {
     <div>
       <div className="object-fill bg-[url('https://media.discordapp.net/attachments/1017987380524884078/1020805903018115182/unknown.png?width=1594&height=1063')] bg-no-repeat bg-cover pb-20 w-full">
         <div className='flex flex-col justify-center items-center h-full'>
-          <h1 className='mt-40 text-8xl w-2/5 p-5 border-y-4 border-slate-800 text-slate-800 text-center'>Title</h1>
+          <h1 className='mt-40 text-8xl w-2/5 p-5 border-y-4 border-slate-800 text-slate-800 text-center'>Just DAO It!</h1>
         </div>
         <div className='p-5 px-10 flex justify-center'>
           <Link href='/browse'>   
             <motion.button className="w-56 text-2xl text-white mt-32 rounded-3xl p-5 bg-sky-400 border-solid border-2"
             whileHover={{scale:1.05}}
             whileTap={{scale:0.95}}>
-              Start Investisng
+              Start Investing
             </motion.button>
           </Link>
         </div>   

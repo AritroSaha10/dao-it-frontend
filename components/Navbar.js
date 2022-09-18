@@ -33,8 +33,8 @@ const links = [
         priority: false
     },
     {
-        name: "Sign Up",
-        link: "/sign-up",
+        name: "Connect Wallet",
+        link: "/connect",
         id: "call-to-action",
         priority: true
     },
@@ -44,13 +44,13 @@ export default function Navbar() {
     const [showDropdown, setShowDropdown] = useState(false);
 
     return (
-        <header className="bg-slate-800 py-2 lg:py-4 sticky">
+        <header className="bg-slate-800 py-2 lg:py-6 sticky">
             <div className="container px-4 mx-auto lg:flex lg:items-center">
                 <div className="flex justify-between items-center">
                     <Link href="/">
-                        <a className="font-bold text-white text-xl text-teal">
+                        <a className="font-bold text-white text-2xl text-teal">
                             {/* <Image src={Logo} alt="logo" width={50} height={50} /> */}
-                            Project
+                            Just DAO It!
                         </a>
                     </Link>
 
